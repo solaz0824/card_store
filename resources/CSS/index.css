@@ -66,6 +66,7 @@ html,body {
     z-index: 1;
 }
 
+
 .enter {
     position: absolute;
     top: 60%;
@@ -186,6 +187,7 @@ h1 {
     z-index: 3;
     transition: 0.3s;
     cursor: pointer;
+    color: whitesmoke;
 }
 
 .close-btn:hover {

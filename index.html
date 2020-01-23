@@ -32,6 +32,7 @@
         <div class="menu">
             <i class="fas fa-bars"></i>
         </div>
+
         <div class="title">Happy Christmas</div>
         <div class="main_text"> Send a Christmas card to wish your loved ones happy holiday! </div>
         <div class="enter">
@@ -45,8 +46,8 @@
                 <div class="product one">
                     <img src="./resources/Images/p01.jpg" alt='moet'>
                     <div class="info">
-                        <h1>Moet</h1>
-                        <p>Price: $ </p>
+                        <h1>Christmas table</h1>
+                        <p>Price: 2.5 $ </p>
                         <div class="buy">
                             <button>BUY</button>
                         </div>
@@ -57,8 +58,8 @@
                 <div class="product two">
                     <img src="./resources/Images/p02.jpg" alt='moet'>
                     <div class="info">
-                        <h1>Moet</h1>
-                        <p>Price: $ </p>
+                        <h1>Christmas Note</h1>
+                        <p>Price: 3 $ </p>
                         <div class="buy">
                             <button>BUY</button>
                         </div>
@@ -69,8 +70,8 @@
                 <div class="product three">
                     <img src="./resources/Images/p03.png" alt='moet'>
                     <div class="info">
-                        <h1>Moet</h1>
-                        <p>Price: $ </p>
+                        <h1>Christmas night</h1>
+                        <p>Price: 2.5 $ </p>
                         <div class="buy">
                             <button>BUY</button>
                         </div>
@@ -81,8 +82,8 @@
                 <div class="product four">
                     <img src="./resources/Images/p04.jpg" alt='moet'>
                     <div class="info">
-                        <h1>Moet</h1>
-                        <p>Price: $ </p>
+                        <h1>White night</h1>
+                        <p>Price: 2 $ </p>
                         <div class="buy">
                             <button>BUY</button>
                         </div>
@@ -146,7 +147,7 @@
             delay: 1.6
         });
 
-        TweenMax.from(".enter", 3, {
+        TweenMax.from(".enter", 0.5, {
             opacity: 0,
             y: 4,
             delay: 1.8
@@ -191,7 +192,7 @@
         });
 
         tl.reverse();
-        $(document).on("click", ".close-btn", function () {
+        $(document).on("click", ".close-btn a", function () {
             tl.reversed(!tl.reversed())
         });
 
